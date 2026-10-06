@@ -1,0 +1,19 @@
+{
+  "name": "police-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend demo tiếp nhận yêu cầu cảnh sát qua GET, POST và SSE",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lowdb": "^7.0.1"
+  }
+}
